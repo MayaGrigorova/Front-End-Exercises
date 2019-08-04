@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+
+    .site-main {
+        margin: 0;
+    }
+
+    .site-information-image {
+        margin: 1rem;
+        flex: 0 0 45%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .site-navigation ul {
+        display: none;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .entry-description {
+        width: 100%;
+    }
+
+    .site-form form > p {
+        display: block;
+    }
+
+    .site-form label {
+        display: block;
+    }
+
+    .site-form input {
+        width: 80%;
+    }
+    .site-form button {
+        margin: 0 auto;
+    }
+
+    .site-posts {
+        display: block;
+    }
+
+    .site-footer {
+        display: block;
+        text-align: center;
+    }
+
+}
